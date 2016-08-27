@@ -39,5 +39,5 @@ task buildLib(dependsOn:['build'])<< {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:support-v4:23+'
+    provided  'com.android.support:support-v4:23+'
 }
